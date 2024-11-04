@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 235, 244);
+
+}
+
+#weather, #dobronin, #jihlava, #city {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+hr {
+    margin: 20px 10px 10px 10px;q   
+}
+
+input, button {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background-color: #00eeff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+h3 {
+    margin-top: 20px;
+}
